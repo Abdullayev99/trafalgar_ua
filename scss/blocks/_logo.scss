@@ -1,0 +1,26 @@
+.logo {
+  display: block;
+  max-width: 160px;
+  margin-right: 10px;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:active {
+    opacity: 0.6;
+  }
+}
+
+.logo__img {
+  width: 160px;
+  height: 41px;
+}
+
+// RESPONSIVE
+@include breakpoint-down (798) {
+  .logo__img {
+    width: 140px;
+    height: 35px;
+  }
+}
