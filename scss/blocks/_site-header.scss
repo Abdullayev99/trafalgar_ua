@@ -33,7 +33,7 @@
 .site-header__curtain {
   position: absolute;
   z-index: -1;
-  background-color: #999;
+  background-color: #fff;
   opacity: 0;
   left: 0;
   top: 0;
@@ -46,7 +46,7 @@
   opacity: 0.5;
 }
 
-@include breakpoint-down (798) {
+@include breakpoint-down (840) {
   .site-header__toggler {
     display: block;
   }
