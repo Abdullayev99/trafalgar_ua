@@ -925,8 +925,8 @@ img {
   margin-left: 15px;
   margin-bottom: 37px;
   background-color: #fff;
-  -webkit-box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
-          box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+  -webkit-box-shadow: 10px 10px 40px 20px rgba(229, 233, 246, 0.4);
+          box-shadow: 10px 10px 40px 20px rgba(229, 233, 246, 0.4);
 }
 
 .service {
@@ -1051,6 +1051,18 @@ img {
     margin-right: 0;
     margin-left: 0;
     text-align: center;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .service {
+    background-position: 105px 40px;
+  }
+  .services__item {
+    width: 300px;
+  }
+  .service__words {
+    width: 200px;
   }
 }
 /*# sourceMappingURL=styles.css.map */
