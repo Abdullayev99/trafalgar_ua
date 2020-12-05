@@ -1,0 +1,60 @@
+.download {
+  padding-top: 145px;
+  padding-bottom: 145px;
+  background-image: url("/img/download-bg.png");
+  background-repeat: no-repeat;
+  background-position: calc(50% + 310px) 80px;
+  background-size: 665px 434px;
+}
+
+.download__left {
+  max-width: 380px;
+}
+
+.download__heading {
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  color: $black-text;
+}
+
+.download___text {
+  margin-top: 0;
+  margin-bottom: 40px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  color: #7D7987;
+}
+
+.download__link {
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  padding: 0px 35px;
+  border: 1.4px solid #458FF6;
+  border-radius: 55px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 60px;
+  color: #458FF6;
+  text-align: center;
+
+  &:hover {
+    opacity: 0.7;
+  }
+
+  &::after {
+    padding: 9px;
+    margin-left: 5px;
+    content: "";
+    width: 15px;
+    height: 10px;
+    background-image: url("/img/download-arrow.svg");
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: contain;
+  }
+}

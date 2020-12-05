@@ -3,7 +3,7 @@
   padding-bottom: 267px;
   background-image: url(/img/hero-left-bg.svg), url(/img/hero-bg.png);
   background-repeat: no-repeat;
-  background-position: calc(50% - 720px) top, calc(50% + 250px) center;
+  background-position: calc(50% - 720px) top, calc(50% + 250px) 30px;
   background-size: 131px 115px, 693px 598px;
 }
 
@@ -31,17 +31,24 @@
 }
 
 .hero__btn {
-  background: #458FF6;
+  padding: 0px 25px;
+  text-decoration: none;
+  display: inline-block;
+  background-color: #458FF6;
   border-radius: 55px;
   color: $white-text;
   font-weight: bold;
   font-size: 18px;
   line-height: 60px;
+  border: 1px solid transparent;
+  text-align: center;
+
 
   &:hover {
     background-color: #fff;
     color: #458FF6;
     border-color: #458FF6;
+    border: 1px solid #458FF6;
   }
 
   &:active {
@@ -70,9 +77,9 @@
   }
 }
 
-@include breakpoint-down (1070) {
+@include breakpoint-down (1090) {
   .hero {
-    background-size: 500px 350px;
+    background-size: 550px 400px;
     background-position:calc(50% + 200px) 100px;
   }
 
@@ -100,7 +107,7 @@
   }
 
   .hero {
-    background-size: 450px 350px;
+    background-size: 470px 370px;
     background-position:calc(50% + 180px) 100px;
   }
 

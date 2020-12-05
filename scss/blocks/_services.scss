@@ -1,5 +1,5 @@
 .services {
-  padding-bottom: 277px;
+  padding-bottom: 110px;
   background-image: url("/img/services-bg.png"),url("/img/services-right-bg.png");
   background-repeat: no-repeat;
   background-position: calc(50% - 360px) 120px, calc(50% + 525px) 570px;
@@ -59,6 +59,14 @@
   margin-bottom: 37px;
   background-color: #fff;
   box-shadow: 10px 10px 40px 20px rgba(229, 233, 246, 0.4);
+  transform: scale(0deg);
+  transition: transform 0.1s ease;
+
+
+  &:hover {
+    transform: scale(1.1);
+    transition: transform 0.9s ease;
+  }
 }
 
 .service {
@@ -119,14 +127,15 @@
 
 .services__link {
   display: inline-block;
-  padding: 0px 50px;
+  padding: 0px 40px;
   text-decoration: none;
   border: 1.4px solid #458FF6;
   border-radius: 55px;
   font-weight: bold;
   font-size: 18px;
   line-height: 60px;
-  color: #458FF6;mix-blend-mode: normal;
+  color: #458FF6;
+  text-align: center;
 
   &:hover {
     background-color: #458FF6;
@@ -146,14 +155,14 @@
   }
 
   .services__list {
-    margin-left: -10px;
-    margin-right: -10px;
+    margin-left: 0px;
+    margin-right: 0px;
   }
 
   .services__item {
     width: 300px;
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-right: 0px;
+    margin-left: 0px;
   }
 
 }
@@ -161,18 +170,18 @@
 @include breakpoint-down (990) {
 
   .services__list {
-    margin-left: -10px;
-    margin-right: -10px;
     justify-content: space-around;
   }
 
   .services__item {
     width: 350px;
+    margin-right: 5px;
+    margin-left: 5px;
   }
 }
 
 
-@include breakpoint-down (762) {
+@include breakpoint-down (780) {
   .services__item {
     width: 300px;
   }
@@ -182,7 +191,7 @@
   }
   }
 
-  @include breakpoint-down (660) {
+  @include breakpoint-down (690) {
 
     .service {
       background-position: 130px 40px;
@@ -197,9 +206,9 @@
 
   @include breakpoint-down (430) {
 
-    .service {
-      background-position: 105px 40px;
-    }
+  .service {
+    background-position: 105px 40px;
+  }
   .services__item {
     width: 300px;
   }

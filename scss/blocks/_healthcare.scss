@@ -1,0 +1,208 @@
+.healthcare {
+  padding-top: 110px;
+  padding-bottom: 145px;
+  background-image: url("/img/healthcare-bg.png");
+  background-repeat: no-repeat;
+  background-position: calc(50% - 330px) 50px;
+  background-size: 650px 477px;
+}
+
+.healthcare__right {
+  max-width: 400px;
+  margin-left: auto;
+}
+
+.healthcare__heading {
+  margin-top: 0;
+  margin-bottom: 33px;
+  font-size: 36px;
+  line-height: 56px;
+  color: #000000;
+  mix-blend-mode: normal;
+
+  &::after {
+    display: block;
+    content: "";
+    width: 56px;
+    height: 2px;
+    background-color: #000;
+    margin-top: 26px;
+  }
+}
+
+.healthcare__text {
+  margin-top: 0;
+  margin-bottom: 37px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  color: #7D7987;
+  mix-blend-mode: normal;
+}
+
+.healthcare__link {
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  padding: 0px 40px;
+  border: 1.4px solid #458FF6;
+  border-radius: 40px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 60px;
+  color: #458FF6;
+
+  &:hover {
+    background-color: #458FF6;
+    color: #fff;
+  }
+
+  &:active {
+    opacity: 0.7;
+  }
+}
+
+
+
+// RESPONSIVE
+@include breakpoint-down (1159) {
+  .healthcare {
+    background-position: calc(50% - 220px) 90px;
+    background-size: 600px 430px;
+  }
+}
+
+@include breakpoint-down (1050) {
+
+  .healthcare {
+    padding-top: 70px;
+  }
+  .healthcare__right {
+    max-width: 350px;
+  }
+
+  .healthcare {
+    background-position: calc(50% - 200px) 100px;
+    background-size: 580px 400px;
+  }
+}
+
+@include breakpoint-down (970) {
+  .healthcare__heading {
+    font-size: 35px;
+    line-height: 50px;
+  }
+
+  .healthcare__text {
+    max-width: 310px;
+  }
+
+  .healthcare {
+    background-position: calc(50% - 200px) 100px;
+    background-size: 500px 400px;
+  }
+}
+
+@include breakpoint-down (930) {
+  .healthcare {
+    padding-bottom: 700px;
+    padding-top: 30px;
+    background-position: calc(50%) 420px;
+    background-size: 750px 550px;
+  }
+
+  .healthcare__right {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 700px;
+  }
+
+  .healthcare__heading {
+    font-size: 40px;
+    line-height: 60px;
+
+    &::after {
+      margin-right: auto;
+      margin-left: auto;
+    }
+  }
+
+  .healthcare__text {
+    max-width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+
+@include breakpoint-down (800) {
+  .healthcare {
+    padding-bottom: 650px;
+    padding-top: 30px;
+    background-position: calc(50%) 420px;
+    background-size: 650px 500px;
+  }
+}
+
+
+@include breakpoint-down (700) {
+  .healthcare {
+    padding-bottom: 600px;
+    padding-top: 30px;
+    background-position: calc(50%) 420px;
+    background-size: 550px 450px;
+  }
+}
+
+
+@include breakpoint-down (590) {
+  .healthcare {
+    padding-bottom: 500px;
+    padding-top: 30px;
+    background-position: calc(50%) 480px;
+    background-size: 450px 350px;
+  }
+}
+
+
+
+@include breakpoint-down (480) {
+  .healthcare {
+    padding-bottom: 450px;
+    padding-top: 30px;
+    background-position: calc(50%) 500px;
+    background-size: 400px 300px;
+  }
+
+  .healthcare__heading {
+    font-size: 35px;
+    line-height: 50px;
+}
+}
+
+
+
+@include breakpoint-down (420) {
+  .healthcare {
+    padding-bottom: 400px;
+    padding-top: 30px;
+    background-position: calc(50%) 500px;
+    background-size: 350px 250px;
+  }
+}
+
+
+@include breakpoint-down (362) {
+  .healthcare {
+    padding-bottom: 350px;
+    padding-top: 30px;
+    background-position: calc(50%) 500px;
+    background-size: 300px 200px;
+  }
+
+  .healthcare__heading {
+    font-size: 30px;
+    line-height: 40px;
+}
+}
