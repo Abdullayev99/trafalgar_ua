@@ -1188,7 +1188,7 @@ img {
     max-width: 700px;
   }
   .healthcare__heading {
-    font-size: 40px;
+    font-size: 50px;
     line-height: 60px;
   }
   .healthcare__heading::after {
@@ -1196,7 +1196,7 @@ img {
     margin-left: auto;
   }
   .healthcare__text {
-    max-width: 500px;
+    max-width: 700px;
     margin-right: auto;
     margin-left: auto;
   }
@@ -1229,7 +1229,7 @@ img {
   }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 500px) {
   .healthcare {
     padding-bottom: 450px;
     padding-top: 30px;
@@ -1327,5 +1327,117 @@ img {
   background-repeat: no-repeat;
   background-position: right center;
   background-size: contain;
+}
+
+@media only screen and (max-width: 1159px) {
+  .download {
+    background-position: calc(50% + 180px) 80px;
+    background-size: 665px 434px;
+  }
+}
+
+@media only screen and (max-width: 1090px) {
+  .download {
+    background-position: calc(50% + 200px) 102px;
+    background-size: 600px 400px;
+  }
+}
+
+@media only screen and (max-width: 930px) {
+  .download {
+    background-position: calc(50%) 500px;
+    background-size: 800px 600px;
+    padding-bottom: 800px;
+  }
+  .download__left {
+    max-width: 800px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .download__heading {
+    font-size: 45px;
+    line-height: 48px;
+  }
+  .download___text {
+    max-width: 800px;
+  }
+}
+
+@media only screen and (max-width: 818px) {
+  .download {
+    background-position: calc(50%) 500px;
+    background-size: 700px 500px;
+    padding-bottom: 700px;
+  }
+}
+
+@media only screen and (max-width: 730px) {
+  .download {
+    padding-top: 90px;
+    background-position: calc(50%) 450px;
+    background-size: 650px 400px;
+    padding-bottom: 600px;
+  }
+}
+
+@media only screen and (max-width: 710px) {
+  .download {
+    background-position: calc(50%) 450px;
+    background-size: 650px 400px;
+    padding-bottom: 600px;
+  }
+}
+
+@media only screen and (max-width: 675px) {
+  .download {
+    background-position: calc(50%) 440px;
+    background-size: 600px 400px;
+    padding-bottom: 600px;
+  }
+}
+
+@media only screen and (max-width: 630px) {
+  .download {
+    background-position: calc(50%) 440px;
+    background-size: 550px 350px;
+    padding-bottom: 550px;
+  }
+  .download__heading {
+    font-size: 40px;
+    line-height: 48px;
+  }
+}
+
+@media only screen and (max-width: 570px) {
+  .download {
+    background-position: calc(50%) 480px;
+    background-size: 480px 350px;
+    padding-bottom: 530px;
+  }
+}
+
+@media only screen and (max-width: 490px) {
+  .download {
+    background-position: calc(50%) 500px;
+    background-size: 400px 300px;
+    padding-bottom: 500px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .download {
+    background-position: calc(50%) 530px;
+    background-size: 350px 250px;
+    padding-bottom: 450px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .download {
+    background-position: calc(50%) 550px;
+    background-size: 320px 220px;
+    padding-bottom: 380px;
+  }
 }
 /*# sourceMappingURL=styles.css.map */

@@ -58,3 +58,129 @@
     background-size: contain;
   }
 }
+
+// RESPONSIVE
+@include breakpoint-down (1159) {
+  .download {
+    background-position: calc(50% + 180px) 80px;
+    background-size: 665px 434px;
+  }
+}
+
+
+@include breakpoint-down (1090) {
+  .download {
+    background-position: calc(50% + 200px) 102px;
+    background-size: 600px 400px;
+  }
+}
+
+
+@include breakpoint-down (930) {
+  .download {
+    background-position: calc(50%) 500px;
+    background-size: 800px 600px;
+    padding-bottom: 800px;
+  }
+
+  .download__left {
+    max-width: 800px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .download__heading {
+    font-size: 45px;
+    line-height: 48px;
+  }
+
+  .download___text {
+    max-width: 800px;
+  }
+}
+
+@include breakpoint-down (818) {
+  .download {
+    background-position: calc(50%) 500px;
+    background-size: 700px 500px;
+    padding-bottom: 700px;
+  }
+}
+
+@include breakpoint-down (730) {
+  .download {
+    padding-top: 90px;
+    background-position: calc(50%) 450px;
+    background-size: 650px 400px;
+    padding-bottom: 600px;
+  }
+}
+
+
+@include breakpoint-down (710) {
+  .download {
+    background-position: calc(50%) 450px;
+    background-size: 650px 400px;
+    padding-bottom: 600px;
+  }
+
+}
+
+@include breakpoint-down (675) {
+  .download {
+    background-position: calc(50%) 440px;
+    background-size: 600px 400px;
+    padding-bottom: 600px;
+  }
+}
+
+
+@include breakpoint-down (630) {
+  .download {
+    background-position: calc(50%) 440px;
+    background-size: 550px 350px;
+    padding-bottom: 550px;
+  }
+
+  .download__heading {
+    font-size: 40px;
+    line-height: 48px;
+  }
+}
+
+
+@include breakpoint-down (570) {
+  .download {
+    background-position: calc(50%) 480px;
+    background-size: 480px 350px;
+    padding-bottom: 530px;
+  }
+}
+
+
+@include breakpoint-down (490) {
+  .download {
+    background-position: calc(50%) 500px;
+    background-size: 400px 300px;
+    padding-bottom: 500px;
+  }
+}
+
+
+@include breakpoint-down (400) {
+  .download {
+    background-position: calc(50%) 530px;
+    background-size: 350px 250px;
+    padding-bottom: 450px;
+  }
+}
+
+
+@include breakpoint-down (350) {
+  .download {
+    background-position: calc(50%) 550px;
+    background-size: 320px 220px;
+    padding-bottom: 380px;
+  }
+}
